@@ -22,7 +22,6 @@ type Config struct {
 	// Kafka    KafkaConfig    `yaml:"kafka"`
 	// Storage  StorageConfig  `yaml:"storage"`
 }
-
 type AppConfig struct {
 	Name string `env:"APP_NAME" yaml:"name"`
 
