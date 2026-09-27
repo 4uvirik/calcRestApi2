@@ -1,0 +1,29 @@
+app:
+  name: my-service
+  host: 0.0.0.0
+  port: 8080
+  shutdown_timeout: 5s
+
+
+logger:
+  environment: local
+
+
+# Новые секции добавляются только при появлении соответствующей
+# инфраструктуры в проекте.
+#
+# database:
+#   host: localhost
+#   port: 5432
+#   user: postgres
+#   password: postgres
+#   name: my_db
+#   ssl_mode: disable
+#
+# redis:
+#   host: localhost
+#   port: 6379
+#
+# kafka:
+#   brokers:
+#     - localhost:9092
